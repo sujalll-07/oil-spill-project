@@ -1,0 +1,124 @@
+@import "tailwindcss";
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Leaflet dark-theme overrides */
+.vessel-div-icon,
+.platform-div-icon {
+  background: transparent !important;
+  border: none !important;
+}
+
+.vessel-popup-container .leaflet-popup-content-wrapper,
+.platform-popup-container .leaflet-popup-content-wrapper {
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+.vessel-popup-container .leaflet-popup-content,
+.platform-popup-container .leaflet-popup-content {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.vessel-popup-container .leaflet-popup-tip,
+.platform-popup-container .leaflet-popup-tip {
+  background: rgb(15, 23, 42) !important; /* bg-slate-900 */
+  border: 1px solid rgb(30, 41, 59) !important; /* border-slate-800 */
+}
+
+/* Base Container for the Ship Marker — width/height set inline per zoom level */
+.ship-marker-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Ship silhouette core — hosts the SVG icon */
+.ship-core {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #00e5ff; /* default: cyan */
+  filter: drop-shadow(0 0 3px rgba(0, 229, 255, 0.9));
+  transition: all 0.2s ease-in-out;
+}
+
+/* The SVG inherits color via currentColor */
+.ship-svg {
+  display: block;
+}
+
+/* Status variants */
+.ship-core.underway {
+  color: #10b981;
+  filter: drop-shadow(0 0 3px rgba(16, 185, 129, 0.9));
+}
+
+.ship-core.anchored {
+  color: #f59e0b;
+  filter: drop-shadow(0 0 3px rgba(245, 158, 11, 0.9));
+}
+
+.ship-core.fishing {
+  color: #a855f7;
+  filter: drop-shadow(0 0 3px rgba(168, 85, 247, 0.9));
+}
+
+/* Suspected / Flagged Ship Styling (Amber/Red Alert) */
+.ship-core.suspected {
+  color: #ff3b30;
+  filter: drop-shadow(0 0 5px rgba(255, 59, 48, 1));
+}
+
+/* Cinematic Radial Glowing Animation Ring */
+.ship-core.suspected::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #ff3b30;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  animation: radialGlowPulse 2s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+  pointer-events: none;
+}
+
+/* Keyframes for the Smooth Expanding Pulse */
+@keyframes radialGlowPulse {
+  0% {
+    width: 10px;
+    height: 10px;
+    opacity: 1.0;
+    box-shadow: 0 0 0 0 rgba(255, 59, 48, 0.6);
+  }
+  100% {
+    width: 48px;
+    height: 48px;
+    opacity: 0;
+    box-shadow: 0 0 15px 10px rgba(255, 59, 48, 0);
+  }
+}
+
+/* Hide scrollbar utility */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

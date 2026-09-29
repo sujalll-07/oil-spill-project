@@ -1,0 +1,32 @@
+# Oil Spill Intelligence System — Backend Dependencies
+# Install with: pip install -r requirements.txt
+
+# API Framework
+fastapi>=0.115.0
+uvicorn>=0.34.0
+python-multipart>=0.0.32
+
+# ML / PyTorch (Replacing TensorFlow/Keras)
+torch>=2.0.0
+torchvision>=0.15.0
+tensorflow>=2.21.0
+pillow>=10.0.0
+numpy>=1.26.0
+
+# Geospatial & Satellite Data Ingestion (NASA Earthdata & CDSE)
+earthaccess>=0.9.0
+rasterio>=1.3.0
+
+# Image Processing & Utilities
+pillow>=10.0.0
+
+# AIS Data 
+websockets>=15.0.0
+
+# Data Processing 
+pandas>=2.0.0
+
+# Streamlit app (Separate from API server)
+streamlit>=1.40.0
+streamlit-folium>=0.25.0
+folium>=0.18.0

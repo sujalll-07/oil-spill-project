@@ -1,0 +1,965 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "rig-in-01",
+      "properties": {
+        "id": "rig-in-01",
+        "name": "Mumbai High North (MHN / NA Complex)",
+        "operator": "ONGC",
+        "field": "Mumbai High (Bombay High)",
+        "basin": "Western Offshore / Mumbai Basin",
+        "region": "Arabian Sea",
+        "jurisdiction": "India EEZ",
+        "isIndiaEEZ": true,
+        "type": "Process & Drilling Platform Complex",
+        "status": "Active",
+        "waterDepthM": 75,
+        "installedYear": 1974,
+        "coordinatesVerified": true,
+        "coordinateSource": "ONGC Western Offshore Navigational Notices & DGH India Disclosures (19°31.47′ N, 71°19.44′ E)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [71.3240, 19.5245]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rig-in-02",
+      "properties": {
+        "id": "rig-in-02",
+        "name": "Mumbai High South (MHS / SA Complex)",
+        "operator": "ONGC",
+        "field": "Mumbai High (Bombay High)",
+        "basin": "Western Offshore / Mumbai Basin",
+        "region": "Arabian Sea",
+        "jurisdiction": "India EEZ",
+        "isIndiaEEZ": true,
+        "type": "Central Process Platform",
+        "status": "Active",
+        "waterDepthM": 80,
+        "installedYear": 1980,
+        "coordinatesVerified": true,
+        "coordinateSource": "DGH India Mumbai Offshore Basin Reference & ONGC Public Technical Reports (19°25.00′ N, 71°20.00′ E)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [71.3333, 19.4167]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rig-in-03",
+      "properties": {
+        "id": "rig-in-03",
+        "name": "Bassein (Bassein-A / BPA Complex)",
+        "operator": "ONGC",
+        "field": "Bassein (Bassein & Satellite)",
+        "basin": "Western Offshore / Mumbai Basin",
+        "region": "Arabian Sea",
+        "jurisdiction": "India EEZ",
+        "isIndiaEEZ": true,
+        "type": "Gas Process Platform Complex",
+        "status": "Active",
+        "waterDepthM": 60,
+        "installedYear": 1988,
+        "coordinatesVerified": true,
+        "coordinateSource": "Directorate General of Hydrocarbons (DGH) NDR India & MapCarta Maritime Reference (19.3333° N, 72.0333° E)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [72.0333, 19.3333]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rig-in-04",
+      "properties": {
+        "id": "rig-in-04",
+        "name": "Neelam Process Platform (NLP)",
+        "operator": "ONGC",
+        "field": "Neelam & Heera",
+        "basin": "Western Offshore / Mumbai Basin",
+        "region": "Arabian Sea",
+        "jurisdiction": "India EEZ",
+        "isIndiaEEZ": true,
+        "type": "Process & Wellhead Platform",
+        "status": "Active",
+        "waterDepthM": 55,
+        "installedYear": 1993,
+        "coordinatesVerified": true,
+        "coordinateSource": "Global Energy Monitor (GEM) Oil & Gas Wiki / DGH India Mumbai Offshore (18.5925° N, 72.2952° E)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [72.2952, 18.5925]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rig-in-05",
+      "properties": {
+        "id": "rig-in-05",
+        "name": "Heera Process Platform (HRP)",
+        "operator": "ONGC",
+        "field": "Heera Field",
+        "basin": "Western Offshore / Mumbai Basin",
+        "region": "Arabian Sea",
+        "jurisdiction": "India EEZ",
+        "isIndiaEEZ": true,
+        "type": "Process & Water Injection Platform",
+        "status": "Active",
+        "waterDepthM": 50,
+        "installedYear": 1984,
+        "coordinatesVerified": true,
+        "coordinateSource": "ONGC Western Offshore Technical Field Disclosures (18.6210° N, 72.2510° E)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [72.2510, 18.6210]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rig-in-06",
+      "properties": {
+        "id": "rig-in-06",
+        "name": "Panna-Mukta Platform (PPA Complex)",
+        "operator": "ONGC",
+        "field": "Panna-Mukta",
+        "basin": "Western Offshore / Mumbai Basin",
+        "region": "Arabian Sea",
+        "jurisdiction": "India EEZ",
+        "isIndiaEEZ": true,
+        "type": "Central Process & Production Platform",
+        "status": "Active",
+        "waterDepthM": 65,
+        "installedYear": 1996,
+        "coordinatesVerified": true,
+        "coordinateSource": "DGH NDR India Field Atlas & Public E&P Disclosures (19.3630° N, 71.9412° E)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [71.9412, 19.3630]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rig-in-07",
+      "properties": {
+        "id": "rig-in-07",
+        "name": "Ratna R-12 Platform Complex",
+        "operator": "ONGC",
+        "field": "Ratna & R-Series",
+        "basin": "Western Offshore / Mumbai Basin",
+        "region": "Arabian Sea (South Mumbai)",
+        "jurisdiction": "India EEZ",
+        "isIndiaEEZ": true,
+        "type": "Offshore Wellhead & Production Platform",
+        "status": "Active",
+        "waterDepthM": 45,
+        "installedYear": 1983,
+        "coordinatesVerified": true,
+        "coordinateSource": "GEM Wiki / DGH India R-Series Offshore Field Records (18.3130° N, 72.3960° E)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [72.3960, 18.3130]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rig-in-08",
+      "properties": {
+        "id": "rig-in-08",
+        "name": "WO-16 Cluster (Sagar Samrat MOPU)",
+        "operator": "ONGC",
+        "field": "WO-16 Offshore Cluster",
+        "basin": "Western Offshore / Mumbai Basin",
+        "region": "Arabian Sea",
+        "jurisdiction": "India EEZ",
+        "isIndiaEEZ": true,
+        "type": "Mobile Offshore Production Unit (MOPU)",
+        "status": "Active",
+        "waterDepthM": 80,
+        "installedYear": 2022,
+        "coordinatesVerified": true,
+        "coordinateSource": "ONGC WO-16 Field Redevelopment Disclosures & Marine Navigation Fix (18.9730° N, 71.6240° E)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [71.6240, 18.9730]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rig-in-09",
+      "properties": {
+        "id": "rig-in-09",
+        "name": "C-Series Marginal Fields (C-26 / C-24)",
+        "operator": "ONGC",
+        "field": "C-Series Gas Fields",
+        "basin": "Western Offshore / Tapti-Daman Sector",
+        "region": "Arabian Sea (West of Daman)",
+        "jurisdiction": "India EEZ",
+        "isIndiaEEZ": true,
+        "type": "Unmanned Wellhead & Gas Platform",
+        "status": "Active",
+        "waterDepthM": 40,
+        "installedYear": 2011,
+        "coordinatesVerified": true,
+        "coordinateSource": "DGH Tapti-Daman Sector Reference & ONGC Seismic Assessment (20.5500° N, 72.1500° E)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [72.1500, 20.5500]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rig-in-10",
+      "properties": {
+        "id": "rig-in-10",
+        "name": "Daman Offshore Platform (B-12-24P / DUDP)",
+        "operator": "ONGC",
+        "field": "Daman Field (Tapti-Daman Sector)",
+        "basin": "Western Offshore / Surat Depression",
+        "region": "Arabian Sea / Gulf of Khambhat",
+        "jurisdiction": "India EEZ",
+        "isIndiaEEZ": true,
+        "type": "Wellhead & Gas Production Platform",
+        "status": "Active",
+        "waterDepthM": 45,
+        "installedYear": 2016,
+        "coordinatesVerified": true,
+        "coordinateSource": "ONGC Daman Upside Development Project Disclosures (20.3947° N, 72.6253° E)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [72.6253, 20.3947]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rig-in-11",
+      "properties": {
+        "id": "rig-in-11",
+        "name": "D1 Field Complex (N.B. Prasad)",
+        "operator": "ONGC",
+        "field": "D1 Deep Continental Shelf",
+        "basin": "Western Offshore / Deepwater",
+        "region": "Arabian Sea",
+        "jurisdiction": "India EEZ",
+        "isIndiaEEZ": true,
+        "type": "Floating Production & Offshore Complex",
+        "status": "Active",
+        "waterDepthM": 90,
+        "installedYear": 2013,
+        "coordinatesVerified": true,
+        "coordinateSource": "GEM Wiki / DGH India Deepwater Field Reference (18.7110° N, 71.0760° E)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [71.0760, 18.7110]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rig-in-12",
+      "properties": {
+        "id": "rig-in-12",
+        "name": "CB-OS/2 Lakshmi Alpha (LA)",
+        "operator": "Cairn Oil & Gas (Vedanta)",
+        "field": "Lakshmi Field (Block CB-OS/2)",
+        "basin": "Cambay Offshore Basin",
+        "region": "Gulf of Khambhat",
+        "jurisdiction": "India EEZ",
+        "isIndiaEEZ": true,
+        "type": "Unmanned Wellhead & Gas Platform",
+        "status": "Active",
+        "waterDepthM": 25,
+        "installedYear": 2002,
+        "coordinatesVerified": true,
+        "coordinateSource": "Cairn India EIA Disclosures & DGH Block CB-OS/2 Data (21.2702° N, 72.3364° E)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [72.3364, 21.2702]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rig-in-13",
+      "properties": {
+        "id": "rig-in-13",
+        "name": "CB-OS/2 Gauri Alpha (GA)",
+        "operator": "Cairn Oil & Gas (Vedanta)",
+        "field": "Gauri Field (Block CB-OS/2)",
+        "basin": "Cambay Offshore Basin",
+        "region": "Gulf of Khambhat",
+        "jurisdiction": "India EEZ",
+        "isIndiaEEZ": true,
+        "type": "Unmanned Wellhead Platform",
+        "status": "Active",
+        "waterDepthM": 22,
+        "installedYear": 2004,
+        "coordinatesVerified": true,
+        "coordinateSource": "Vedanta Cairn Oil & Gas Marine Compliance Reports (21.1900° N, 72.3100° E)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [72.3100, 21.1900]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rig-in-14",
+      "properties": {
+        "id": "rig-in-14",
+        "name": "KG-D6 Control & Riser Platform (CRP)",
+        "operator": "Reliance Industries / BP",
+        "field": "KG-D6 (Dhirubhai Field)",
+        "basin": "Krishna-Godavari (KG) Basin",
+        "region": "Bay of Bengal",
+        "jurisdiction": "India EEZ",
+        "isIndiaEEZ": true,
+        "type": "Central Control & Riser Platform",
+        "status": "Active",
+        "waterDepthM": 100,
+        "installedYear": 2008,
+        "coordinatesVerified": true,
+        "coordinateSource": "RIL / BP KG-D6 Offshore Development Disclosures & DGH Atlas (16.6500° N, 82.3500° E)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [82.3500, 16.6500]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rig-in-15",
+      "properties": {
+        "id": "rig-in-15",
+        "name": "KG-DWN-98/2 Cluster 2 Complex",
+        "operator": "ONGC",
+        "field": "KG-DWN-98/2 Deepwater",
+        "basin": "Krishna-Godavari (KG) Basin",
+        "region": "Bay of Bengal",
+        "jurisdiction": "India EEZ",
+        "isIndiaEEZ": true,
+        "type": "Deepwater Central Processing Facility / FPSO Hub",
+        "status": "Active",
+        "waterDepthM": 430,
+        "installedYear": 2024,
+        "coordinatesVerified": true,
+        "coordinateSource": "ONGC KG-DWN-98/2 Factsheets & DGH Deepwater Reports (16.2820° N, 82.2070° E)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [82.2070, 16.2820]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rig-in-16",
+      "properties": {
+        "id": "rig-in-16",
+        "name": "Ravva Offshore Platform (Ravva-A / RD Complex)",
+        "operator": "Cairn Oil & Gas (Vedanta)",
+        "field": "Ravva Field (Block PKGM-1)",
+        "basin": "Krishna-Godavari (KG) Basin",
+        "region": "Bay of Bengal",
+        "jurisdiction": "India EEZ",
+        "isIndiaEEZ": true,
+        "type": "Offshore Processing & Wellhead Platform",
+        "status": "Active",
+        "waterDepthM": 30,
+        "installedYear": 1993,
+        "coordinatesVerified": true,
+        "coordinateSource": "Cairn Oil & Gas Ravva Disclosures / DGH Block PKGM-1 (16.4879° N, 82.0897° E)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [82.0897, 16.4879]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rig-in-17",
+      "properties": {
+        "id": "rig-in-17",
+        "name": "PY-3 Cauvery Offshore Facility",
+        "operator": "Hardy Exploration / ONGC / Invenire",
+        "field": "PY-3 Field (Block CY-OS-90/1)",
+        "basin": "Cauvery Offshore Basin",
+        "region": "Bay of Bengal / Coromandel Coast",
+        "jurisdiction": "India EEZ",
+        "isIndiaEEZ": true,
+        "type": "Wellhead Platform & FPSO Svetah Venetia Mooring",
+        "status": "Active",
+        "waterDepthM": 80,
+        "installedYear": 1997,
+        "coordinatesVerified": true,
+        "coordinateSource": "DGH India Cauvery Basin Assessment / SEBI & Hardy E&P Filings (11.0150° N, 79.9100° E)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.9100, 11.0150]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rig-in-18",
+      "properties": {
+        "id": "rig-in-18",
+        "name": "Mahanadi Deepwater Discovery Site (MN-DW18-1)",
+        "operator": "ONGC",
+        "field": "Mahanadi Offshore Deepwater",
+        "basin": "Mahanadi Basin",
+        "region": "Bay of Bengal (Off Odisha / Konark)",
+        "jurisdiction": "India EEZ",
+        "isIndiaEEZ": true,
+        "type": "Deepwater Exploration Well Location",
+        "status": "Active",
+        "waterDepthM": 650,
+        "installedYear": 2026,
+        "coordinatesVerified": true,
+        "coordinateSource": "ONGC National Gas Discovery Press Disclosures (~43 km off Konark, 19.5500° N, 86.4200° E)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [86.4200, 19.5500]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rig-in-19",
+      "properties": {
+        "id": "rig-in-19",
+        "name": "Mid Tapti Decommissioned Platform (MTA)",
+        "operator": "ONGC",
+        "field": "Tapti Gas Field",
+        "basin": "Western Offshore / Surat Depression",
+        "region": "Arabian Sea",
+        "jurisdiction": "India EEZ",
+        "isIndiaEEZ": true,
+        "type": "Decommissioned Wellhead Platform",
+        "status": "Inactive",
+        "waterDepthM": 20,
+        "installedYear": 1997,
+        "coordinatesVerified": true,
+        "coordinateSource": "DGH Western Offshore Historical Disclosures & ONGC Decommissioning Registry (20.8500° N, 71.9500° E)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [71.9500, 20.8500]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rig-ior-01",
+      "properties": {
+        "id": "rig-ior-01",
+        "name": "Safaniya Offshore Complex",
+        "operator": "Saudi Aramco",
+        "field": "Safaniya Field",
+        "basin": "Arabian Gulf Basin",
+        "region": "Persian Gulf (North)",
+        "jurisdiction": "Saudi Arabia EEZ",
+        "isIndiaEEZ": false,
+        "type": "Super-Giant Offshore Production Complex",
+        "status": "Active",
+        "waterDepthM": 30,
+        "installedYear": 1957,
+        "coordinatesVerified": true,
+        "coordinateSource": "Saudi Aramco Public Technical Papers & Global Energy Monitor (28.2800° N, 48.7500° E)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [48.7500, 28.2800]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rig-ior-02",
+      "properties": {
+        "id": "rig-ior-02",
+        "name": "Marjan Offshore Complex (GOSP-2 / 3)",
+        "operator": "Saudi Aramco",
+        "field": "Marjan Field",
+        "basin": "Arabian Gulf Basin",
+        "region": "Persian Gulf",
+        "jurisdiction": "Saudi Arabia EEZ",
+        "isIndiaEEZ": false,
+        "type": "Gas-Oil Separation & Production Complex",
+        "status": "Active",
+        "waterDepthM": 40,
+        "installedYear": 1984,
+        "coordinatesVerified": true,
+        "coordinateSource": "Aramco Marjan Field Public Factsheet & GEM Database (28.4389° N, 49.6746° E)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.6746, 28.4389]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rig-ior-03",
+      "properties": {
+        "id": "rig-ior-03",
+        "name": "Zuluf Offshore Production Complex",
+        "operator": "Saudi Aramco",
+        "field": "Zuluf Field",
+        "basin": "Arabian Gulf Basin",
+        "region": "Persian Gulf",
+        "jurisdiction": "Saudi Arabia EEZ",
+        "isIndiaEEZ": false,
+        "type": "Offshore Separation & Water Injection Complex",
+        "status": "Active",
+        "waterDepthM": 36,
+        "installedYear": 1973,
+        "coordinatesVerified": true,
+        "coordinateSource": "Saudi Aramco Field Reports & GEM Database (28.6110° N, 49.0590° E)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.0590, 28.6110]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rig-ior-04",
+      "properties": {
+        "id": "rig-ior-04",
+        "name": "Upper Zakum Production Complex (UZ01)",
+        "operator": "ADNOC Offshore / ExxonMobil",
+        "field": "Upper Zakum Field",
+        "basin": "Arabian Gulf Basin",
+        "region": "Persian Gulf (Off Abu Dhabi)",
+        "jurisdiction": "UAE EEZ",
+        "isIndiaEEZ": false,
+        "type": "Artificial Island Complex & Satellite Platforms",
+        "status": "Active",
+        "waterDepthM": 20,
+        "installedYear": 1982,
+        "coordinatesVerified": true,
+        "coordinateSource": "ADNOC Offshore Technical Disclosures & GEM (24.8429° N, 53.6563° E)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [53.6563, 24.8429]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rig-ior-05",
+      "properties": {
+        "id": "rig-ior-05",
+        "name": "South Pars Phase 2/3 Offshore Platform (SPD)",
+        "operator": "Pars Oil and Gas Company (POGC)",
+        "field": "South Pars Gas Field",
+        "basin": "Persian Gulf Basin",
+        "region": "Persian Gulf (near Strait of Hormuz)",
+        "jurisdiction": "Iran EEZ",
+        "isIndiaEEZ": false,
+        "type": "Gas Production & Drilling Platform",
+        "status": "Active",
+        "waterDepthM": 65,
+        "installedYear": 2002,
+        "coordinatesVerified": true,
+        "coordinateSource": "Offshore Magazine & POGC Maritime Technical Reference (26.8614° N, 52.1813° E)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.1813, 26.8614]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rig-ior-06",
+      "properties": {
+        "id": "rig-ior-06",
+        "name": "North Field Bravo (NFB Complex)",
+        "operator": "QatarEnergy LNG",
+        "field": "North Dome Field",
+        "basin": "Persian Gulf Basin",
+        "region": "Persian Gulf",
+        "jurisdiction": "Qatar EEZ",
+        "isIndiaEEZ": false,
+        "type": "Offshore Gas Production & Treatment Facility",
+        "status": "Active",
+        "waterDepthM": 52,
+        "installedYear": 1996,
+        "coordinatesVerified": true,
+        "coordinateSource": "QatarEnergy Technical Disclosures & GEM Database (26.3100° N, 51.9800° E)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.9800, 26.3100]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rig-ior-07",
+      "properties": {
+        "id": "rig-ior-07",
+        "name": "Al-Shaheen Production Complex (STAR-1)",
+        "operator": "North Oil Company (TotalEnergies / QatarEnergy)",
+        "field": "Al-Shaheen Oil Field",
+        "basin": "Persian Gulf Basin",
+        "region": "Persian Gulf (Off Qatar)",
+        "jurisdiction": "Qatar EEZ",
+        "isIndiaEEZ": false,
+        "type": "Offshore Central Processing & Living Platform Hub",
+        "status": "Active",
+        "waterDepthM": 32,
+        "installedYear": 1994,
+        "coordinatesVerified": true,
+        "coordinateSource": "North Oil Company Qatar Technical Disclosures & GEM (26.5142° N, 51.9219° E)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.9219, 26.5142]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rig-ior-08",
+      "properties": {
+        "id": "rig-ior-08",
+        "name": "Yadana Central Complex (YPC / YPP)",
+        "operator": "PTTEP / TotalEnergies (Historical)",
+        "field": "Yadana Gas Field (Block M5)",
+        "basin": "Moattama (Martaban) Basin",
+        "region": "Andaman Sea (Off Myanmar)",
+        "jurisdiction": "Myanmar EEZ",
+        "isIndiaEEZ": false,
+        "type": "Integrated Offshore Gas Processing Complex",
+        "status": "Active",
+        "waterDepthM": 45,
+        "installedYear": 1998,
+        "coordinatesVerified": true,
+        "coordinateSource": "PTTEP Myanmar Technical Reports & GEM Database (15.1865° N, 94.6377° E)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [94.6377, 15.1865]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rig-ior-09",
+      "properties": {
+        "id": "rig-ior-09",
+        "name": "Bongkot Main Platform Complex (Bongkot Central)",
+        "operator": "PTTEP",
+        "field": "Greater Bongkot (Block B15/16/17)",
+        "basin": "Malay Basin (North)",
+        "region": "Gulf of Thailand",
+        "jurisdiction": "Thailand EEZ",
+        "isIndiaEEZ": false,
+        "type": "Central Gas Processing Platform Hub",
+        "status": "Active",
+        "waterDepthM": 80,
+        "installedYear": 1993,
+        "coordinatesVerified": true,
+        "coordinateSource": "PTTEP Offshore Operations / GEM Wiki (7.8290° N, 102.5790° E)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [102.5790, 7.8290]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rig-ior-10",
+      "properties": {
+        "id": "rig-ior-10",
+        "name": "Central Luconia E11 Production Hub",
+        "operator": "PETRONAS Carigali (PCSB)",
+        "field": "E11 Field (Offshore Bintulu)",
+        "basin": "Sarawak Basin / Central Luconia",
+        "region": "South China Sea (Off Borneo)",
+        "jurisdiction": "Malaysia EEZ",
+        "isIndiaEEZ": false,
+        "type": "Central Gas Gathering Platform Hub",
+        "status": "Active",
+        "waterDepthM": 70,
+        "installedYear": 1982,
+        "coordinatesVerified": true,
+        "coordinateSource": "PETRONAS Carigali E11 Disclosures & AAPG Bulletin (4.3325° N, 112.6783° E)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [112.6783, 4.3325]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rig-ior-11",
+      "properties": {
+        "id": "rig-ior-11",
+        "name": "Bokor Central Processing Platform (BOCPP-A)",
+        "operator": "PETRONAS Carigali",
+        "field": "Bokor Field (Baram Delta)",
+        "basin": "Sarawak Basin / Baram Delta",
+        "region": "South China Sea (Off Miri)",
+        "jurisdiction": "Malaysia EEZ",
+        "isIndiaEEZ": false,
+        "type": "Central Processing & Enhanced Oil Recovery Platform",
+        "status": "Active",
+        "waterDepthM": 67,
+        "installedYear": 2020,
+        "coordinatesVerified": true,
+        "coordinateSource": "Marine Department of Malaysia Notice to Mariners (4.5502° N, 113.6240° E)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [113.6240, 4.5502]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rig-ior-12",
+      "properties": {
+        "id": "rig-ior-12",
+        "name": "Bach Ho (White Tiger) Platform Complex",
+        "operator": "Vietsovpetro",
+        "field": "Bach Ho Field (Block 09-1)",
+        "basin": "Cuu Long Basin",
+        "region": "South China Sea (Off Vietnam)",
+        "jurisdiction": "Vietnam EEZ",
+        "isIndiaEEZ": false,
+        "type": "Central Drilling & Oil Processing Platform Complex",
+        "status": "Active",
+        "waterDepthM": 50,
+        "installedYear": 1986,
+        "coordinatesVerified": true,
+        "coordinateSource": "Vietsovpetro Public Field Data & GEM Database (9.7300° N, 107.9720° E)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [107.9720, 9.7300]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rig-ior-13",
+      "properties": {
+        "id": "rig-ior-13",
+        "name": "Liwan 3-1 Central Gas Platform (LW3-1 CEP)",
+        "operator": "CNOOC / Husky (Cenovus)",
+        "field": "Liwan 3-1 Deepwater Field",
+        "basin": "Pearl River Mouth Basin",
+        "region": "South China Sea (Deepwater)",
+        "jurisdiction": "China EEZ",
+        "isIndiaEEZ": false,
+        "type": "Deepwater Central Processing Platform",
+        "status": "Active",
+        "waterDepthM": 190,
+        "installedYear": 2014,
+        "coordinatesVerified": true,
+        "coordinateSource": "CNOOC Deepwater Gas Development & GEM Database (19.9121° N, 115.0818° E)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [115.0818, 19.9121]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rig-ior-14",
+      "properties": {
+        "id": "rig-ior-14",
+        "name": "Malampaya Offshore Platform (Malampaya GBS)",
+        "operator": "Prime Energy / PNOC-EC",
+        "field": "Malampaya Gas Field (SC 38)",
+        "basin": "Northwest Palawan Basin",
+        "region": "South China Sea (Off Philippines)",
+        "jurisdiction": "Philippines EEZ",
+        "isIndiaEEZ": false,
+        "type": "Gravity-Based Concrete Production Platform (GBS)",
+        "status": "Active",
+        "waterDepthM": 43,
+        "installedYear": 2001,
+        "coordinatesVerified": true,
+        "coordinateSource": "DOE Philippines Energy Project Records & GEM Database (11.6348° N, 118.9027° E)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [118.9027, 11.6348]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rig-ior-15",
+      "properties": {
+        "id": "rig-ior-15",
+        "name": "North Rankin A (NRA Platform Complex)",
+        "operator": "Woodside Energy",
+        "field": "North Rankin (North West Shelf)",
+        "basin": "Carnarvon Basin / NW Shelf",
+        "region": "Oceania / Timor & Arafura Sea (NW Australia)",
+        "jurisdiction": "Australia Commonwealth Waters",
+        "isIndiaEEZ": false,
+        "type": "Giant Gas & Condensate Production Platform",
+        "status": "Active",
+        "waterDepthM": 125,
+        "installedYear": 1984,
+        "coordinatesVerified": true,
+        "coordinateSource": "NOPSEMA Australia & Woodside Operational EP (19.5856° S, 116.1367° E)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.1367, -19.5856]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rig-ior-16",
+      "properties": {
+        "id": "rig-ior-16",
+        "name": "Goodwyn A (GWA Platform)",
+        "operator": "Woodside Energy",
+        "field": "Goodwyn Field (North West Shelf)",
+        "basin": "Carnarvon Basin / NW Shelf",
+        "region": "Oceania / Indian Ocean (NW Australia)",
+        "jurisdiction": "Australia Commonwealth Waters",
+        "isIndiaEEZ": false,
+        "type": "Offshore Production & Drilling Platform",
+        "status": "Active",
+        "waterDepthM": 131,
+        "installedYear": 1995,
+        "coordinatesVerified": true,
+        "coordinateSource": "NOPSEMA Western Australia Marine Safety Disclosures (19.6500° S, 115.9300° E)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [115.9300, -19.6500]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rig-ior-17",
+      "properties": {
+        "id": "rig-ior-17",
+        "name": "Wheatstone Offshore Gas Platform (WP)",
+        "operator": "Chevron / Woodside / PE Wheatstone",
+        "field": "Wheatstone & Iago Fields",
+        "basin": "Carnarvon Basin / NW Shelf",
+        "region": "Oceania / Eastern Indian Ocean (Off Onslow)",
+        "jurisdiction": "Australia Commonwealth Waters",
+        "isIndiaEEZ": false,
+        "type": "Topsides Processing Platform & Jacket Structure",
+        "status": "Active",
+        "waterDepthM": 73,
+        "installedYear": 2017,
+        "coordinatesVerified": true,
+        "coordinateSource": "Chevron Australia Environmental Plans & NOPSEMA (19.9200° S, 115.3800° E)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [115.3800, -19.9200]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rig-ior-18",
+      "properties": {
+        "id": "rig-ior-18",
+        "name": "Gorgon Offshore Development Hub (Barrow)",
+        "operator": "Chevron / ExxonMobil / Shell",
+        "field": "Greater Gorgon / Jansz-Io",
+        "basin": "Carnarvon Basin",
+        "region": "Eastern Indian Ocean (Off Barrow Island)",
+        "jurisdiction": "Australia Commonwealth Waters",
+        "isIndiaEEZ": false,
+        "type": "Deepwater Subsea Gas Gathering Hub",
+        "status": "Active",
+        "waterDepthM": 220,
+        "installedYear": 2016,
+        "coordinatesVerified": true,
+        "coordinateSource": "Chevron Gorgon Environmental Plans & NOPSEMA (20.7900° S, 115.4100° E)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [115.4100, -20.7900]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rig-ior-19",
+      "properties": {
+        "id": "rig-ior-19",
+        "name": "FA Offshore Gas Platform (Mossel Bay)",
+        "operator": "PetroSA",
+        "field": "FA Gas-Condensate Field (Block 9)",
+        "basin": "Outeniqua Basin / Bredasdorp",
+        "region": "Southern Indian Ocean (Off South Africa)",
+        "jurisdiction": "South Africa EEZ",
+        "isIndiaEEZ": false,
+        "type": "Fixed Steel Jacket Process & Living Quarters Platform",
+        "status": "Active",
+        "waterDepthM": 113,
+        "installedYear": 1992,
+        "coordinatesVerified": true,
+        "coordinateSource": "CSIR WaveNet Marine Portal & PetroSA Offshore Disclosures (34°58′12″ S, 22°10′12″ E; -34.9700° S, 22.1700° E)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22.1700, -34.9700]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rig-ior-20",
+      "properties": {
+        "id": "rig-ior-20",
+        "name": "Sangu Offshore Gas Platform (Legacy)",
+        "operator": "Petrobangla / Santos (Historical)",
+        "field": "Sangu Gas Field (Block 16)",
+        "basin": "Bengal Fan / Offshore Bangladesh",
+        "region": "Bay of Bengal (Northeast)",
+        "jurisdiction": "Bangladesh EEZ",
+        "isIndiaEEZ": false,
+        "type": "Decommissioned Shallow Water Wellhead Platform",
+        "status": "Inactive",
+        "waterDepthM": 10,
+        "installedYear": 1998,
+        "coordinatesVerified": true,
+        "coordinateSource": "Petrobangla Block 16 Technical Data & Marine Safety Notices (22.0400° N, 91.5600° E)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [91.5600, 22.0400]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rig-ior-21",
+      "properties": {
+        "id": "rig-ior-21",
+        "name": "Mannar Basin SL-2007-01 Exploration Well Location",
+        "operator": "Cairn Lanka / PRDS Sri Lanka",
+        "field": "Dorado / Barracuda Discovery",
+        "basin": "Gulf of Mannar / Cauvery Basin",
+        "region": "Palk Strait / Mannar Basin",
+        "jurisdiction": "Sri Lanka EEZ",
+        "isIndiaEEZ": false,
+        "type": "Exploration Wellhead Site",
+        "status": "Inactive",
+        "waterDepthM": 400,
+        "installedYear": 2011,
+        "coordinatesVerified": false,
+        "coordinateSource": "Sri Lanka PRDS Block SL-2007 Exploration Map (Approx. 8.7500° N, 79.4500° E; marked for verification)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.4500, 8.7500]
+      }
+    }
+  ]
+}
