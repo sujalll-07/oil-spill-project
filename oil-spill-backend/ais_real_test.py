@@ -10,7 +10,12 @@ import random
 # AISSTREAM API KEY & GLOBAL WORLD OCEAN BOUNDING BOX
 # ============================================================
 
-API_KEY = "6be5c87403ce30cc80d1d076aeae5bbee6970689"
+from dotenv import load_dotenv
+load_dotenv()
+
+API_KEY = os.getenv("AISSTREAM_API_KEY")
+if not API_KEY:
+    raise RuntimeError("AISSTREAM_API_KEY is not set. Add it to oil-spill-backend/.env")
 
 # Whole World Ocean (Global Coverage: -90° to 90° Lat, -180° to 180° Lon)
 BOUNDING_BOX = [
